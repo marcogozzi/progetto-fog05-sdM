@@ -1,0 +1,5 @@
+{
+    "A": [{"label": "I", "state": "execute", "execution_time": 10}],
+    "B": [{"label": "J", "state": "execute", "execution_time": 2}],
+    "C": [{"label": "I", "state": "execute", "execution_time": 5}, {"label": "J", "state": "execute", "execution_time": 5}]
+}

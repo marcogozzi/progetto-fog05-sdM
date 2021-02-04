@@ -1,0 +1,10 @@
+ {
+  "devices": {
+    "B": {"nuuid": "9806ff42-cecc-48c1-9f44-da51955d4732", "label": "B", "desc": "fdu_sens_coap.json", "connector": {"name": "coap", "ip":"localhost", "port":"9500"}}
+    },
+    "mappings":{
+        "A": {"label": "I", "state": "execute", "execution_time": 10},
+        "B": {"label": "I", "state": "execute", "execution_time": 10},
+        "C": {"label": "I", "state": "execute", "execution_time": 10}
+    }
+ }

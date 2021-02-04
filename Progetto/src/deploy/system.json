@@ -1,0 +1,17 @@
+ {
+  "devices": {
+    "A": {"nuuid": "9806ff42-cecc-48c1-9f44-da51955d4732", "label": "A", "desc": "fdu_sens_mqtt.json", "connector": {"name":"mqtt", "broker":"localhost"}},
+    "B": {"nuuid": "9806ff42-cecc-48c1-9f44-da51955d4732", "label": "B", "desc": "fdu_sens_coap.json", "connector": {"name": "coap", "ip":"localhost", "port":"9500"}},
+    "C": {"nuuid": "9806ff42-cecc-48c1-9f44-da51955d4732", "label": "C", "desc": "fdu_sens_mqtt.json", "connector": {"name":"mqtt", "broker":"localhost"}},
+    "I": {"nuuid": "9806ff42-cecc-48c1-9f44-da51955d4732", "label": "I", "desc": "fdu_act_coap.json", "connector": {"name": "coap", "ip":"localhost", "port":"9501"}},
+    "J": {"nuuid": "9806ff42-cecc-48c1-9f44-da51955d4732", "label": "J", "desc": "fdu_act_mqtt.json", "connector": {"name":"mqtt", "broker":"localhost"}},
+    "K": {"nuuid": "9806ff42-cecc-48c1-9f44-da51955d4732", "label": "K", "desc": "fdu_act_coap.json", "connector": {"name": "coap", "ip":"localhost", "port":"9502"}}
+    },
+    "mappings":{
+        "A": [{"label": "I", "state": "execute", "execution_time": 1}],
+        "B": [{"label": "J", "state": "execute", "execution_time": 1}],
+        "C": [{"label": "K", "state": "execute", "execution_time": 1}]
+    },
+   "fimapi": "192.168.31.232",
+   "fdu_control": "/var/fos/demo/deploy/fdu_control_software.json"
+ }

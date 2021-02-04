@@ -1,0 +1,11 @@
+ {
+  "devices": {
+    "A": {"nuuid": "9806ff42-cecc-48c1-9f44-da51955d4732", "label": "A", "desc": "fdu_sens_mqtt.json", "connector": {"name":"mqtt", "broker":"localhost"}},
+    "J": {"nuuid": "9806ff42-cecc-48c1-9f44-da51955d4732", "label": "J", "desc": "fdu_act_mqtt.json", "connector": {"name":"mqtt", "broker":"localhost"}}
+  },
+    "mappings":{
+        "A": {"label": "I", "state": "execute", "execution_time": 10},
+        "B": {"label": "I", "state": "execute", "execution_time": 10},
+        "C": {"label": "I", "state": "execute", "execution_time": 10}
+    }
+ }

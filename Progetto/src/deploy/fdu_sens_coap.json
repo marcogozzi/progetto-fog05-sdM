@@ -1,0 +1,22 @@
+{
+    "id": "sens_c_fdu",
+    "name": "sensor_coap05",
+    "computation_requirements": {
+        "cpu_arch": "x86_64",
+        "cpu_min_freq": 0,
+        "cpu_min_count": 1,
+        "ram_size_mb": 64.0,
+        "storage_size_gb": 0.1
+    },
+    "command": {
+        "binary": "python3",
+        "args": ["/var/fos/demo/mock_sensor_coap05.py"]
+    },
+    "hypervisor": "BARE",
+    "migration_kind": "COLD",
+    "storage": [],
+    "depends_on": [],
+    "interfaces": [],
+    "io_ports": [],
+    "connection_points": []
+}
