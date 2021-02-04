@@ -1,0 +1,3 @@
+$ sudo docker build -t marcogozzi/migration:state .
+$ sudo docker run marcogozzi/migration:state
+$ sudo docker push marcogozzi/migration

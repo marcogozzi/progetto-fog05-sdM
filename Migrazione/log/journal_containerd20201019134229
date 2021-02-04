@@ -1,0 +1,3 @@
+-- Logs begin at Fri 2020-08-21 20:33:52 CEST. --
+ott 19 13:43:48 marco containerd[1132]: time="2020-10-19T13:43:48.150750486+02:00" level=info msg="starting signal loop" namespace=fos path=/run/containerd/io.containerd.runtime.v2.task/fos/c2404fc4-336d-4d66-a9ce-018f7071e115 pid=31880
+ott 19 13:46:53 marco containerd[1132]: time="2020-10-19T13:46:53.106174610+02:00" level=info msg="shim disconnected" id=c2404fc4-336d-4d66-a9ce-018f7071e115

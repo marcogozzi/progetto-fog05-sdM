@@ -1,0 +1,6 @@
+{
+   "sleep_period":"5",
+   "iterations":"5",
+   "output_folder":"/tmp/fos",
+   "env_output":"config_file_default"
+} 
